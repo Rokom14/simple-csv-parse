@@ -1,0 +1,38 @@
+{
+  "name": "simple-csv-parse",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --config jestconfig.json",
+    "build": "tsc",
+    "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
+    "lint": "tslint -p tsconfig.json"
+  },
+  "browser": {
+    "fs": false
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rokom14/simple-csv-parse.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rokom14/simple-csv-parse/issues"
+  },
+  "homepage": "https://github.com/Rokom14/simple-csv-parse#readme",
+  "devDependencies": {
+    "@types/jest": "^23.3.1",
+    "jest": "^23.4.2",
+    "prettier": "^1.14.0",
+    "ts-jest": "^23.1.2",
+    "tslint": "^5.11.0",
+    "tslint-config-prettier": "^1.14.0",
+    "typescript": "^3.0.1"
+  },
+  "dependencies": {
+    "@types/node": "^10.5.6"
+  }
+}
