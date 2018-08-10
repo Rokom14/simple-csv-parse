@@ -1,8 +1,9 @@
 {
   "name": "simple-csv-parse",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Just a csv parser",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "scripts": {
     "test": "jest --config jestconfig.json",
     "build": "tsc",
@@ -21,8 +22,8 @@
     "type": "git",
     "url": "git+https://github.com/Rokom14/simple-csv-parse.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["csv", "csv parser", "parser"],
+  "author": "Rok Komatar",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Rokom14/simple-csv-parse/issues"
