@@ -3,7 +3,7 @@ const CSVParser = require('../../lib/index');
 describe('CSVParser', function() {
   describe('parseCSV()', function() {
     it('should return empty array if empty file', () => {
-      let parser = new CSVParser('src/__tests__/emptyFile.csv');
+      let parser = new CSVParser('src/__tests__/emptyFile.csv', { delimiter: ',', headers: true });
       return parser.parseCSV().then(data => {
         expect(data).toHaveLength(0);
       });
